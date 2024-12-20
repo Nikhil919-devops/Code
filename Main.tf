@@ -1,4 +1,4 @@
 resource "local_file" "my_pets" {
- filename = "pets.txt"
+ filename = "/home/ec2-user/terraform/pets.txt"
  content = "I love Pets !" 
 }
