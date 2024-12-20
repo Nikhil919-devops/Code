@@ -16,7 +16,7 @@ pipeline {
 
         stage('Terraform Apply') {
             steps {
-                sh 'terraform apply  -var "content=I love Pets !" -auto-approve'
+                sh 'terraform apply -auto-approve'
             }
         }
     }
